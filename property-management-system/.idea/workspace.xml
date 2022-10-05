@@ -4,31 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e52f418e-5d99-4e50-bcff-ff8a2e089b11" name="Changes" comment="Merge branch 'master' of https://github.com/change-everything/property-management-system">
+    <list default="true" id="e52f418e-5d99-4e50-bcff-ff8a2e089b11" name="Changes" comment=":add: 基于百度云ai的扫脸登录">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/f4/PropertyManagementSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/f4/PropertyManagementSystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/f4/config/MySecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/f4/config/MySecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/f4/controller/EmployeeInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/f4/controller/EmployeeInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/f4/dto/EmpLoginDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/f4/dto/EmpLoginDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/f4/enumEntity/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/f4/enumEntity/ResultCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/f4/mapper/EmployeeInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/f4/mapper/EmployeeInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/f4/security/CustomizeAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/f4/security/CustomizeAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/f4/security/filter/CustomizeFilterInvocationSecurityMetadataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/f4/security/filter/CustomizeFilterInvocationSecurityMetadataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/f4/security/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/f4/security/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/f4/security/service/impl/EmployeeDTOServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/f4/security/service/impl/EmployeeDTOServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/f4/PropertyManagementSystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/f4/PropertyManagementSystemApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/f4/config/MySecurityConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/f4/config/MySecurityConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/f4/config/MySecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/f4/config/MySecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/f4/controller/EmployeeInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/f4/controller/EmployeeInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/f4/dto/EmpLoginDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/f4/dto/EmpLoginDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/f4/enumEntity/ResultCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/f4/enumEntity/ResultCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/f4/security/CustomizeAuthenticationSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/f4/security/CustomizeAuthenticationSuccessHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/f4/security/filter/CustomizeFilterInvocationSecurityMetadataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/f4/security/filter/CustomizeFilterInvocationSecurityMetadataSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/f4/security/filter/JwtAuthenticationTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/f4/security/filter/JwtAuthenticationTokenFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/f4/security/service/impl/EmployeeDTOServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/f4/security/service/impl/EmployeeDTOServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +242,7 @@
       <workItem from="1664880487004" duration="15392000" />
       <workItem from="1664932399083" duration="15038000" />
       <workItem from="1664957650943" duration="3172000" />
-      <workItem from="1664964287572" duration="673000" />
+      <workItem from="1664964287572" duration="1571000" />
     </task>
     <task id="LOCAL-00001" summary="初步添加了redis">
       <created>1659690886575</created>
@@ -309,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664459580645</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=":add: 基于百度云ai的扫脸登录">
+      <created>1664965307202</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664965307202</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +318,7 @@
     <MESSAGE value=":fix: 修复了数据显示错误" />
     <MESSAGE value=":add: 添加了系统参数模块" />
     <MESSAGE value=":delete: 删除了旧版ui" />
-    <option name="LAST_COMMIT_MESSAGE" value=":delete: 删除了旧版ui" />
+    <MESSAGE value=":add: 基于百度云ai的扫脸登录" />
+    <option name="LAST_COMMIT_MESSAGE" value=":add: 基于百度云ai的扫脸登录" />
   </component>
 </project>
